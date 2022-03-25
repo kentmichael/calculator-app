@@ -17,4 +17,10 @@ body {
   margin: 0;
   font-size: rem(32);
   font-weight: 700;
+
+  @include breakpoint-up(medium){
+    height: 100vh;
+    display: grid;
+    align-items: center;
+  }
 }
