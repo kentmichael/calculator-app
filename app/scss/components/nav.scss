@@ -1,0 +1,17 @@
+@use '../util' as *;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: rem(30);
+  padding-top: rem(30);
+
+  h1{
+    font-size: rem(31);
+  }
+
+  button {
+    height: rem(47);
+  }
+}
