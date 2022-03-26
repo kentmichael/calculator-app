@@ -13,6 +13,7 @@ header {
 
   h1{
     font-size: rem(31);
+    color: var(--text-color);
   }
 
   .theme {
@@ -30,6 +31,7 @@ header {
       margin-bottom: rem(5);
       padding-inline: rem(7.5);
       font-size: rem(12);
+      color: var(--text-color);
     }
 
     .toggle {
@@ -38,6 +40,7 @@ header {
       gap: rem(27);
       font-size: rem(12);
       text-transform: uppercase;
+      color: var(--text-color);
     }
 
     .radio-btn {
@@ -46,7 +49,7 @@ header {
       border-radius: rem(20);
       padding-inline: rem(7.5);
       padding-block: rem(4);
-      background-color: aquamarine; // Temporary
+      background-color: var(--toggle-keypad-bg);
 
       input[type='radio']{
         border-radius: 50%;
@@ -60,7 +63,7 @@ header {
 
       input[type='radio']:checked {
         border: none;
-        background-color: red; // Temporary
+        background-color: var(--ky-bg-toggle); // Temporary
         border-radius: 50%;
         height: rem(19);
         width: rem(19);
