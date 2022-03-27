@@ -9,26 +9,57 @@ main {
       margin-bottom: rem(23);
     }
 
-    input[type='text'] {
-      width: 100%;
-      height: 100%;
-      appearance: none;
-      outline: none;
-      border: none;
-      border-radius: rem(10);
-      padding-inline: rem(27);
-      padding-block: rem(26);
-      background-color: var(--screen-bg);
-      font-size: rem(30);
-      font-weight: 700;
-      font-family: var(--font-body);
-      direction: rtl;
-      color: var(--text-color);
+    label {
+      position: relative;
+      display: block;
+      width: fit-content;
+      height: fit-content;
 
-      @include breakpoint-up(medium){
-        font-size: rem(44);
-        padding-inline: rem(37);
-        padding-block: rem(37);
+      .display-field {
+        width: 100%;
+        height: 100%;
+        appearance: none;
+        outline: none;
+        border: none;
+        border-radius: rem(10);
+        padding-inline: rem(27);
+        padding-block: rem(26);
+        background-color: var(--screen-bg);
+        font-size: rem(30);
+        font-weight: 700;
+        font-family: var(--font-body);
+        text-align: right;
+        color: var(--text-color);
+  
+        @include breakpoint-up(medium){
+          font-size: rem(44);
+          padding-inline: rem(37);
+          padding-block: rem(37);
+        }
+      }
+
+      .exp-container {
+        position: absolute;
+        top: 5%;
+        display: block;
+        height: rem(20);
+        width: 100%;
+        appearance: none;
+        outline: none;
+        border: none;
+        border-radius: 100%;
+        padding-inline: rem(35);
+        font-size: rem(12);
+        font-weight: 700;
+        font-family: var(--font-body);
+        text-align: right;
+        color: var(--text-color);
+        background-color: var(--screen-bg);
+
+        @include breakpoint-up(medium){
+          font-size: rem(15);
+          padding-inline: rem(45);
+        }
       }
     }
   }
@@ -68,6 +99,12 @@ main {
         padding-block: rem(15);
         font-size: rem(29);
       }
+    }
+
+    .btn-click {
+      animation-name: button-click;
+      animation-duration: 100ms;
+      animation-timing-function: ease;
     }
 
     .del {

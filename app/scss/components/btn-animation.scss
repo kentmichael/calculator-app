@@ -1,0 +1,12 @@
+@use '../util' as *;
+
+@keyframes button-click{
+  from {
+    box-shadow: 0 rem(5) var(--num-key-shadow);
+  }
+
+  to {
+    transform: translateY(10%);
+    box-shadow: none;
+  }
+}

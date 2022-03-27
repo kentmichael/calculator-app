@@ -39,16 +39,16 @@
 @media (prefers-color-scheme: dark){
   :root {
     --text-color: hsl(52, 100%, 62%);
-    --main-bg: hsl(268, 75%, 9%);//
-    --toggle-keypad-bg: hsl(268, 71%, 12%);//
-    --screen-bg: hsl(268, 71%, 12%);//
-    --key-bg: hsl(281, 89%, 26%); //
-    --key-shadow: hsl(285, 91%, 52%); //
-    --ky-bg-toggle: hsl(176, 100%, 44%);//
+    --main-bg: hsl(268, 75%, 9%);
+    --toggle-keypad-bg: hsl(268, 71%, 12%);
+    --screen-bg: hsl(268, 71%, 12%);
+    --key-bg: hsl(281, 89%, 26%);
+    --key-shadow: hsl(285, 91%, 52%);
+    --ky-bg-toggle: hsl(176, 100%, 44%);
     --key-shadow-equal: hsl(177, 92%, 70%);
-    --num-key-bg: hsl(268, 47%, 21%); //
-    --num-key-shadow: hsl(290, 70%, 36%); //
-    --num-key-text: hsl(52, 100%, 62%); //
-    --num-key-text-equal: hsl(198, 20%, 13%); //
+    --num-key-bg: hsl(268, 47%, 21%);
+    --num-key-shadow: hsl(290, 70%, 36%);
+    --num-key-text: hsl(52, 100%, 62%);
+    --num-key-text-equal: hsl(198, 20%, 13%);
   }
 }
